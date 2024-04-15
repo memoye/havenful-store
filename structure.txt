@@ -1,0 +1,54 @@
+my-ecommerce-app/
+├── app/
+│   ├── layout.js
+│   ├── stores/
+│   │   ├── [storeId]/
+│   │   │   ├── page.js
+│   │   │   └── [productId]/
+│   │   │       └── page.js
+│   │   └── create/
+│   │       └── page.js
+│   ├── cart/
+│   │   └── page.js
+│   ├── checkout/
+│   │   └── page.js
+│   └── api/
+│       ├── orders/
+│       │   └── route.js
+│       └── products/
+│           └── route.js
+├── components/
+│   ├── layout/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── Layout.js
+│   ├── store/
+│   │   ├── StoreList.js
+│   │   ├── StoreCard.js
+│   │   └── StorePage.js
+│   ├── product/
+│   │   ├── ProductList.js
+│   │   ├── ProductCard.js
+│   │   └── ProductDetails.js
+│   ├── cart/
+│   │   ├── CartPage.js
+│   │   └── CartItem.js
+│   └── common/
+│       ├── Button.js
+│       ├── Input.js
+│       └── Modal.js
+├── lib/
+│   ├── supabase.js
+│   └── api.js
+├── hooks/
+│   ├── useStore.js
+│   ├── useCart.js
+│   └── useSupabase.js
+├── styles/
+│   ├── globals.css
+│   └── components/
+│       ├── layout.css
+│       └── store.css
+├── next.config.js
+├── package.json
+└── README.md
